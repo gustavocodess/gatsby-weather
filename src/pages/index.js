@@ -9,7 +9,7 @@ const IndexPage = () => (
   <Layout>
     <SEO title="Hello" />
     <div className="row">
-      <div className="col">
+      <div className="col" style={{ flex: 0.7 }}>
         <h3>
           A unique way to check the current weather of your place.
         </h3>

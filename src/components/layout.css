@@ -648,3 +648,8 @@ pre tt:after {
   margin: 16px;
   flex: 1;
 }
+
+.logo-icon {
+  width: 2rem;
+  margin-right: 24px;
+}
