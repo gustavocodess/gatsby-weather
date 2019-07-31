@@ -30,8 +30,9 @@ const Header = ({ siteTitle }) => (
           <img src={logoIcon} alt="weather" className="logo-icon" />
         </Link>
         {siteTitle}
-        <Link
-          to="https://github.com/gustavocodess/gatsby-weather"
+        <a
+          href="https://github.com/gustavocodess/gatsby-weather"
+          target="_blank" // eslint-disable-line
           style={{
             color: 'white',
             textDecoration: 'none',
@@ -39,7 +40,7 @@ const Header = ({ siteTitle }) => (
           }}
         >
           <img src={github} alt="github" className="logo-icon" style={{ backgroundColor: 'indigo', borderRadius: '50%' }} />
-        </Link>
+        </a>
       </h3>
     </div>
   </header>
